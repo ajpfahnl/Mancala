@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A0F70BC228A40EF004D0780 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A0F70BB228A40EF004D0780 /* main.cpp */; };
+		8A0F70BC228A40EF004D0780 /* Side.h in Sources */ = {isa = PBXBuildFile; fileRef = 8A0F70BB228A40EF004D0780 /* Side.h */; };
+		8A0F70C6228B6CA7004D0780 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A0F70C5228B6CA7004D0780 /* Main.cpp */; };
+		8A0F70CC228B70E9004D0780 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A0F70CA228B70E9004D0780 /* Game.cpp */; };
+		8A0F70D0228CA877004D0780 /* Board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A0F70CF228CA877004D0780 /* Board.cpp */; };
+		8A9DEE8822926C490067ECDA /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A9DEE8722926C490067ECDA /* Player.cpp */; };
+		8ABF822C24EB248B00703CBE /* Tests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8ABF822A24EB248B00703CBE /* Tests.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8A0F70B8228A40EF004D0780 /* __CS32_Project_3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = __CS32_Project_3; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A0F70BB228A40EF004D0780 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8A0F70B8228A40EF004D0780 /* Mancala */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Mancala; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A0F70BB228A40EF004D0780 /* Side.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Side.h; sourceTree = "<group>"; };
+		8A0F70C3228B6A3F004D0780 /* Board.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		8A0F70C5228B6CA7004D0780 /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		8A0F70C8228B6CFB004D0780 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		8A0F70CA228B70E9004D0780 /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		8A0F70CB228B70E9004D0780 /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		8A0F70CF228CA877004D0780 /* Board.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Board.cpp; sourceTree = "<group>"; };
+		8A9DEE8722926C490067ECDA /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		8ABF822A24EB248B00703CBE /* Tests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tests.cpp; sourceTree = "<group>"; };
+		8ABF822B24EB248B00703CBE /* Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tests.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +55,7 @@
 		8A0F70AF228A40EF004D0780 = {
 			isa = PBXGroup;
 			children = (
-				8A0F70BA228A40EF004D0780 /* __CS32_Project_3 */,
+				8A0F70BA228A40EF004D0780 /* Source */,
 				8A0F70B9228A40EF004D0780 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +63,34 @@
 		8A0F70B9228A40EF004D0780 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8A0F70B8228A40EF004D0780 /* __CS32_Project_3 */,
+				8A0F70B8228A40EF004D0780 /* Mancala */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8A0F70BA228A40EF004D0780 /* __CS32_Project_3 */ = {
+		8A0F70BA228A40EF004D0780 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				8A0F70BB228A40EF004D0780 /* main.cpp */,
+				8A0F70C5228B6CA7004D0780 /* Main.cpp */,
+				8ABF822A24EB248B00703CBE /* Tests.cpp */,
+				8ABF822B24EB248B00703CBE /* Tests.h */,
+				8A0F70C3228B6A3F004D0780 /* Board.h */,
+				8A0F70CF228CA877004D0780 /* Board.cpp */,
+				8A0F70C8228B6CFB004D0780 /* Player.h */,
+				8A9DEE8722926C490067ECDA /* Player.cpp */,
+				8A0F70CB228B70E9004D0780 /* Game.h */,
+				8A0F70CA228B70E9004D0780 /* Game.cpp */,
+				8A0F70BB228A40EF004D0780 /* Side.h */,
 			);
-			path = __CS32_Project_3;
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8A0F70B7228A40EF004D0780 /* __CS32_Project_3 */ = {
+		8A0F70B7228A40EF004D0780 /* Mancala */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A0F70BF228A40EF004D0780 /* Build configuration list for PBXNativeTarget "__CS32_Project_3" */;
+			buildConfigurationList = 8A0F70BF228A40EF004D0780 /* Build configuration list for PBXNativeTarget "Mancala" */;
 			buildPhases = (
 				8A0F70B4228A40EF004D0780 /* Sources */,
 				8A0F70B5228A40EF004D0780 /* Frameworks */,
@@ -77,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = __CS32_Project_3;
+			name = Mancala;
 			productName = __CS32_Project_3;
-			productReference = 8A0F70B8228A40EF004D0780 /* __CS32_Project_3 */;
+			productReference = 8A0F70B8228A40EF004D0780 /* Mancala */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8A0F70B3228A40EF004D0780 /* Build configuration list for PBXProject "__CS32_Project_3" */;
+			buildConfigurationList = 8A0F70B3228A40EF004D0780 /* Build configuration list for PBXProject "Mancala" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,7 +131,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8A0F70B7228A40EF004D0780 /* __CS32_Project_3 */,
+				8A0F70B7228A40EF004D0780 /* Mancala */,
 			);
 		};
 /* End PBXProject section */
@@ -118,7 +141,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A0F70BC228A40EF004D0780 /* main.cpp in Sources */,
+				8A0F70D0228CA877004D0780 /* Board.cpp in Sources */,
+				8A0F70BC228A40EF004D0780 /* Side.h in Sources */,
+				8A9DEE8822926C490067ECDA /* Player.cpp in Sources */,
+				8ABF822C24EB248B00703CBE /* Tests.cpp in Sources */,
+				8A0F70C6228B6CA7004D0780 /* Main.cpp in Sources */,
+				8A0F70CC228B70E9004D0780 /* Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +283,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8A0F70B3228A40EF004D0780 /* Build configuration list for PBXProject "__CS32_Project_3" */ = {
+		8A0F70B3228A40EF004D0780 /* Build configuration list for PBXProject "Mancala" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A0F70BD228A40EF004D0780 /* Debug */,
@@ -264,7 +292,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A0F70BF228A40EF004D0780 /* Build configuration list for PBXNativeTarget "__CS32_Project_3" */ = {
+		8A0F70BF228A40EF004D0780 /* Build configuration list for PBXNativeTarget "Mancala" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A0F70C0228A40EF004D0780 /* Debug */,

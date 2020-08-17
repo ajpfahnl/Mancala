@@ -1,6 +1,6 @@
 //
 //  Player.cpp
-//  __CS32_Project_3
+//  Mancala
 //
 //  Created by Arnold Pfahnl on 5/14/19.
 //  Copyright © 2019 Arnold Pfahnl. All rights reserved.

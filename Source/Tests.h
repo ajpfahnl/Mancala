@@ -1,6 +1,6 @@
 //
 //  Tests.hpp
-//  __CS32_Project_3
+//  Mancala
 //
 //  Created by Arnold Pfahnl on 8/17/20.
 //  Copyright © 2020 Arnold Pfahnl. All rights reserved.
